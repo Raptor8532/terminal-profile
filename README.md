@@ -17,14 +17,14 @@ For the scripts to work, I think these are the bare minimum requirements.
 
 ```bash
 # Update your software repositories.
-sudo apt-get update
-sudo apt-get upgrade
+sudo dnf update
+sudo dnf upgrade
 
 # Install Git.
-sudo apt-get install -y git
+sudo dnf install -y git
 
 # Install Vim.
-sudo apt-get install -y vim
+sudo dnf install -y vim
 ```
 
 # Installation
@@ -90,7 +90,7 @@ dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
 How to display terminal information (I use [Neofetch](https://github.com/dylanaraps/neofetch)).
 
 ```bash
-sudo apt-get install neofetch
+sudo dnf install neofetch
 
 # Display the profile
 # I override the colors because the default red is kinda ugly in this theme.
